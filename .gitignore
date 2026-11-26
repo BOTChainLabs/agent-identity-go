@@ -1,0 +1,35 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+/update
+/register
+
+# Test / coverage
+*.test
+*.out
+coverage.html
+
+# Go workspace local
+go.work
+go.work.sum
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Local secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Internal process docs — keep local only
+/docs/
